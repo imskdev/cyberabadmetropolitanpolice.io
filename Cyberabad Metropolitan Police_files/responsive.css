@@ -1,0 +1,1021 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 3000px){
+	.header				{ display:none;}
+}
+
+
+ @media only screen and (max-width: 1360px){
+	 
+	 .wrapper			{ min-width:inherit; max-width:none;}
+	.banner_main>img	{ width:100%;}
+	.contact_map img	{  width: 100%;}
+	.bottom				{ width:703px; margin:0 auto 25px;}
+	.emergency			{margin: 17px 0 0 10%;}
+	.shuttle			{border-right:0px;}
+	.header				{ display:none;}
+	
+	/*Police station start*/
+	
+	.ps_detail_res		{ width:100%;}
+	
+	/*Police station end*/
+	
+}
+
+ @media only screen and (max-width: 1300px){
+	 .wrapper			{ margin:0 auto; width:95%;}
+	 /*Police station start*/
+	 .person .detail	{width: 62%;}
+	 .emergency2_info	{width: 49%; margin: 0 0% 0 0;}
+	 .ps_detail			{ width:32.2%;}
+	 .station_row2_res	{ width:100%;}
+	 .map				{ width:32.2%}
+	 .sector_info		{width: 40.3%;}
+	 .strength			{width: 24.2%;}
+	 
+	 /*Police station end*/
+	 
+	 /*Know Your Police station start*/
+	 .jcp				{ width:23.2%;}
+	 /*.madhapur			{ width:23.4%;}*/
+	 .lbnagar			{width: 48.7%;}
+	 /*Know Your Police station End*/
+	 
+	 	 /*		MadhapurPS_Detective Inspectors Start		*/
+	 .madhapur_di		{width: 18.8%;}
+	 /*		MadhapurPS_Detective Inspectors End		*/
+
+	 /*	Photos gallery page start	*/
+	.gallery ul			{ width:100%;}
+	.gallery ul li		{ width:21%;}
+	/*	Photos gallery page end	*/
+	
+	/*	Photos gallery_in page start	*/
+	.gallery_in ul			{ width:100%;}
+	.gallery_in ul li		{ width:21%;}
+	/*	Photos gallery_in page end	*/
+	
+	/*	 video page start	*/
+	.video ul			{ width:100%;}
+	.video ul li		{ width:21%;}
+	/*	video  page end	*/
+	 
+	 
+	 
+	 }
+
+@media only screen and (max-width: 1285px){
+	
+	header				{ position:relative; height:auto; width:100%;}
+	.home_page			{position: relative;top:auto;}
+	.main_banner		{position: relative;top:auto;}
+	.in_main_content	{ position:relative; top:auto;}
+	.know_your_ps		{ position:relative; top:auto;}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1285px){
+	
+	header				{ position:relative; height:auto; width:100%;}
+	.main_banner		{position: relative;top:auto;}
+	.know_your_ps		{ position:relative; top:auto;}
+	 
+	.main_banner .bx-controls-direction a		{ top:150px;}
+	.nav				{ display:none;}
+	.header				{ display:block;}
+	
+	/*Police station start*/
+	
+	.ps_detail_res		{ height:150px;}
+	.person img			{ width:29%;}
+	.emergency2_info h3	{padding: 21px 8px 20px 35px;}
+	.emergency2 .emergency_box img{margin: 17px 25px 23px 20px;}
+	.emergency2_info h4	{padding: 20px 0px 20px 32px;}
+	.emergency2	.sms img	{margin: 16px 0 32px 13px;}
+	.emergency2	.child img	{margin: 19px 0 30px 26px;}
+	
+	.ps_detail			{ width:31.9%;}
+	.sector_info		{width:39.3%;}
+	.map_cover			{ width:100% !important;}
+	/*Police station end*/
+	
+	/*Know Your Police station start*/
+	 .jcp				{ width:23.2%;margin: 0 16px 25px 0;}
+	 .madhapur			{ width:23.4%;margin: 0 17px 25px 0;}
+	 .lbnagar			{/*width: 23.7%;*/margin: 0px 17px 0 0;}
+	 .lbnagar f1		{width: 23.7%;margin: 0px 17px 0 0;}
+	 
+	 /*Know Your Police station End*/
+	 
+	 /*		MadhapurPS_Details Start		*/
+	 .ps_detail_row ul li		{width: 18.8%;}
+	 .sector_imp				{margin: 0px 10px 0 0;}
+	 .sector_imp ul				{height: 25vh;}
+	 /*		MadhapurPS_Details End		*/
+	 
+	 /*		Detective Inspetors Start		*/
+	 .madhapur_di				{width:31.9%;}
+	 .madhapur_di:nth-child(6)	{ margin:0px 0 25px 0;}
+	 /*		Detective Inspetors End		*/
+	 
+	 /* station di start */
+	.emergency2_di			{width: 39%;}
+	 .emergency2_di_info h3	{padding:9px 8px 35px 25px;}
+	 .emergency2_di .emergency_box	{padding: 14px 0 0 0;}
+	.emergency2_di .emergency_box img{margin:6px 25px 23px 5px;}
+	.emergency2_di_info h4	{padding:9px 0px 36px 17px;}
+	.emergency2_di	.sms	{padding: 10px 0 0 0;}
+	.emergency2_di .sms img	{margin: 16px 0 32px 13px;}
+	.emergency2_di	.child	{padding: 10px 0 0 0;}
+	.emergency2_di .child img	{margin: 19px 0 25px 14px;}
+	
+	/* station di end*/
+	
+	/*   Inner si's header bar Start		*/
+	.body_content			{ position:inherit; top:auto;}
+	 /*.station_head_di				{margin: -20px -10px 0;}*/
+	 /*   Inner si's header bar end		*/
+	 
+	/*	Photos gallery page start	*/
+	.gallery ul			{ width:100%;}
+	.gallery ul li		{ width:23%;margin: 0 1% 25px;}
+	.gallery ul li a img	{ width:100%;}
+	.gallery ul li small	{ width:auto;}
+	/*	Photos gallery page end	*/
+	
+	/*	Photos gallery_in page start	*/
+	.gallery_in ul			{ width:100%;}
+	.gallery_in ul li		{ width:23%;margin: 0 1% 25px;}
+	.gallery_in ul li a img	{ width:100%;}
+	.gallery_in ul li small	{ width:auto;}
+	/*	Photos gallery_in page end	*/
+	 
+	 /*	 video page start	*/
+	.video ul			{ width:100%;}
+	.video ul li		{ width:23%;margin: 0 1% 25px;}
+	.video ul li a img	{ width:100%;}
+	.video ul li small	{ width:auto;}
+	/*	video  page end	*/
+	 
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+	
+	.head_left						{width: 85%;}
+	.logo 							{width: 15%;}
+	.head_title						{font-size: 35px;}
+	.head_right						{width: 10.5%;}
+	.nav				{ display:none;}
+	.header				{ display:block;}
+	
+	.main_banner .bx-controls-direction a		{ top:115px;}
+	.banner_1 .banner_cont			{top: 35px;}
+	.banner_1 .banner_cont h2		{ font-size:30px; line-height:30px;}
+	.banner_1 .banner_cont h2 span	{ font-size:35px;}
+	
+	.options ul li					{ width:19% !important;}
+	.options ul .brack				{ display:block; float:none !important;}
+	
+	.wish_content					{width: 86%;padding: 2% 0 0% 0;background-size: 35% 100%;}
+	
+	/*	About page start	*/
+	.about_public					{ width:31%;}
+	/*	About page end		*/
+	
+	
+	/*Police station start*/
+	
+	.in_main_content				{padding: 20px 10px;}
+	.ps_detail_res		{ height:auto;}
+	.person				{ width:62%;}
+	.person img			{ width:28%;}
+	.emergency2			{width: 36%;}
+	.emergency2_info h3	{padding:21px 6px 20px 5px;}
+	.emergency2_info h3 span	{font-size: 13px;}
+	.emergency2 .emergency_box img{margin:27px 5px 16px 5px;}
+	.emergency2_info h4	{padding:16px 0px 20px 5px;}
+	.emergency2_info h4 span	{font-size: 13px;}
+	.emergency2	.sms img	{margin:24px 0 15px 10px;}
+	.emergency2	.child img	{margin: 19px 0 25px 6px;width: 30%;}
+	
+	.ps_detail			{ width:31.5%;}
+	.table_word			{word-break: break-all;}
+	.map				{ width:32.2%;height: 315px;}
+	 .sector_info		{width: 40.8%;height: 315px;}
+	 .strength			{width: 21.5%;height: 315px;}
+	 .map_cover			{ width:100% !important;}
+	/*Police station end*/
+	
+	/*Know Your Police station start*/
+	.in_main_content				{padding: 20px 10px 0;}
+	 .jcp				{ width:100%; height:auto; margin: 0 16px 25px 0;}
+	 .jcp a 			{padding: 10px 0;  line-height: 25px;}
+	 .madhapur			{ width:48%;margin: 0 17px 25px 0;}
+	 .madhapur_res			{ width:48%;margin: 0 0px 25px 0;}
+	 .lbnagar			{width: 48.9%;margin: 0px 17px 25px 0; /*display:none;*/}
+	 .lbnagar_small		{display: block; width: 98.8%; margin-bottom: 20px;}
+	 
+	 /*Know Your Police station End*/
+	 
+	 /*		MadhapurPS_Details Start		*/
+	 .stationps_details				{padding: 20px 10px 10px;}
+	 .ps_detail_row ul li		{width:23.5%;}
+	 .sector_imp					{width: 32%;margin: 0px 10px 0 0;}
+	 .sector_imp ul					{height: 26vh;}
+	 .sector_imp ul li				{width: 95%;}
+	 /*		MadhapurPS_Details End		*/
+	 
+	 /*	ACP's details page start	*/
+	 .acp_total							{ width:99%; margin:0 auto;}
+	 .acp_detail						{ width:100%;}
+	 .acp_detail2						{ width:100%;}
+	 /*	ACP's details page end	*/
+	 
+	 /*	cyber crime page start	*/
+	 .cyber_crime_detail						{ width:47%;}
+	 .cyber_crime_detail2						{ width:50%;}
+	 .cyber_crime_detail3						{ width:100%;}
+	 .cyber_crime_detail4						{ width:100%;}
+	 /*	cyber crime page end	*/
+	 
+	 /*		MadhapurPS_Detective Inspectors Start		*/
+	 .station_head_di				{margin: -20px -10px 0;}
+	 /*		MadhapurPS_Detective Inspectors End		*/
+	 
+	 /*		Detective Inspetors Start		*/
+	 .madhapur_di				{width:31.9%;margin: 0 11px 25px 0;}
+	 .madhapur_di:nth-child(6)	{ margin:0px 0 25px 0;}
+	 /*		Detective Inspetors End		*/
+	 
+	 /* station di start */
+	.person_di			{ width:60%;}
+	.emergency2_di			{width: 38%;}
+	 .emergency2_di_info h3	{padding:9px 8px 20px 10px;font-size: 13px;}
+	 .emergency2_di_info h3 span	{font-size: 14px;}
+	 .emergency2_di .emergency_box	{padding: 14px 0 0 0;}
+	.emergency2_di .emergency_box img{margin:20px 7px 23px 5px;}
+	.emergency2_di_info h4	{padding:9px 0px 15px 12px;font-size: 13px;}
+	.emergency2_di_info h4 span	{font-size: 14px;}
+	.emergency2_di	.sms	{padding: 10px 0 0 0;}
+	.emergency2_di .sms img	{margin:16px 0 23px 5px;}
+	.emergency2_di	.child	{padding: 10px 0 0 0;}
+	.emergency2_di .child img	{margin:19px 0 25px 14px;}
+	
+	/* station di end*/
+	
+	/*   Inner si's header bar Start		*/
+	.body_content			{ position:inherit; top:auto;}
+	 .station_head_di				{margin: -20px -10px 0;}
+	/*   Inner si's header bar end		*/
+	
+	/*   Information- Safety tips Start		*/
+	.safety_tip_list		{width:45%;}
+	/*   Information- Safety tips end		*/
+	
+	/*   Information- fighting_terror Start		*/
+	.fighting_terror img					{width:100%;}
+	/*   Information- fighting_terror end		*/
+	
+	/* five_pronged start */
+	.five_pronged img						{ width:100%;}
+	.five_pronged .education				{width:700px; margin: 0 auto;}
+	.five_pronged .education img			{width:auto;}
+	/* analysis_map end */
+	
+	/*	Photos gallery page start	*/
+	.gallery ul			{ width:100%;}
+	.gallery ul li		{ width:31.3%;margin: 0 1% 25px;}
+	.gallery ul li a img	{ width:100%;}
+	.gallery ul li small	{ width:auto;}
+	/*	Photos gallery page end	*/
+	
+	/*	Photos gallery_in page start	*/
+	.gallery_in ul			{ width:100%;}
+	.gallery_in ul li		{ width:31.3%;margin: 0 1% 25px;}
+	.gallery_in ul li a img	{ width:100%;}
+	.gallery_in ul li small	{ width:auto;}
+	/*	Photos gallery_in page end	*/
+	
+	/*	 video page start	*/
+	.video ul			{ width:100%;}
+	.video ul li		{ width:31.3%;margin: 0 1% 25px;}
+	.video ul li a img	{ width:100%;}
+	.video ul li small	{ width:auto;}
+	/*	video  page end	*/
+	 
+}
+
+@media only screen and (max-width:800px) {
+	/*   women_corner start		*/
+	.women_corner img					{width:100%;}
+	/*   women_corner  end		*/
+	}
+
+@media only screen and (max-width:710px) {
+	.footer_copy p { float: none; display: block !important;}
+	}
+/*@media only screen and (max-width:767px) {
+.jcp				{ width:100%;margin: 0 16px 25px 0;}
+	 .madhapur			{ width:100%;margin: 0 16px 25px 0;}
+	 .madhapur_res			{ width:100%;margin: 0 0px 25px 0;}
+	 .madhapur .basheerbad	{ padding-left:5px !important;}
+	 .lbnagar			{/*display:none;* width:100%;}
+	 .lbnagar_small		{display: block; width: 99.5%; margin-bottom: 20px;}
+}*/	
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+	
+	.head_left						{width: 85%;}
+	.logo 							{width: 15%;}
+	.head_title						{font-size:27px;margin: 15px 0 0 0px;}
+	.head_right						{width: 10.5%;}
+	.nav				{ display:none;}
+	.header				{ display:block;}
+	
+	.main_banner .bx-controls-direction a		{ top:90px;width: 20px;height: 20px;}
+	.banner_1 .banner_cont			{top:20px;}
+	.banner_1 .banner_cont h2		{ font-size:22px; line-height:23px;}
+	.banner_1 .banner_cont h2 span	{ font-size:25px;}
+	
+	.options ul li					{ width:19% !important;}
+	.options ul .brack				{ display:block; float:none !important;}
+	
+	.wish_content					{width: 84%;padding: 2% 0 0% 0; background-size: 42% 100%;}
+	
+	.bottom							{ width:100%;}
+	.videos							{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 75%;}
+	.she_team						{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 75%;}
+	.shuttle						{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 75%;}
+	.emergency						{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 75%;}
+	.press							{float: none;display: block;margin:20px auto;border-bottom: 0px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 75%;}
+	
+	
+	/*	About page start	*/
+	.about_area						{height: 277px;}
+	.about_public					{ width:30%;}
+	/*	About page end		*/
+	
+		/*Police station start*/
+	
+	.in_main_content				{padding: 20px 10px;}
+	.dropdown_menu		{ display:none;}
+	.ps_total			{ display:block; clear:both; float:none; margin:20px auto 10px;}
+	.ps_detail_res		{ height:178px;}
+	.person				{ width:100%; float:none;margin: 0 0 10px 0;}
+	.person img			{ width:28%;}
+	.emergency2			{width: 36%; float:none;}
+	/*.emergency2_info h3	{padding:21px 6px 20px 5px;}
+	.emergency2_info h3 span	{font-size: 13px;}
+	.emergency2 .emergency_box img{margin:27px 5px 16px 5px;}
+	.emergency2_info h4	{padding:16px 0px 20px 5px;}
+	.emergency2_info h4 span	{font-size: 13px;}
+	.emergency2	.sms img	{margin:24px 0 15px 10px;}
+	.emergency2	.child img	{margin: 19px 0 25px 6px;width: 30%;}*/
+	.ps_detail			{ width:31.5%;margin: 0 10px 0 0;}
+	.table_word			{word-break: break-all;}
+	
+	.station_row3		{margin:20px 0 0 0;}
+	.map				{width: 100%;}
+	.sector_info		{width: 60%;}
+	.strength			{width: 35.6%;margin: 0 0px 20px 0;}
+	.map_cover			{ width:100% !important;}
+	
+	
+	
+	/*Police station end*/
+	
+	/*	ACP's details page start	*/
+	 .acp_total							{ width:99%; margin:0 auto;}
+	 .acp_detail						{ width:100%;}
+	 .acp_detail2						{ width:100%;}
+	 /*	ACP's details page end	*/
+	 
+	 /*	cyber crime page start	*/
+	 .cyber_crime_detail						{ width:100%;}
+	 .cyber_crime_detail2						{ width:100%;}
+	 .cyber_crime_detail3						{ width:100%;}
+	 .cyber_crime_detail4						{ width:100%;}
+	 /*	cyber crime page end	*/
+	
+	/*Know Your Police station start*/
+	 .know_your_ps				{padding: 20px 10px 0;}
+	 .jcp				{ width:48%;margin: 0 16px 25px 0;}
+	 .madhapur			{ width:48%;margin: 0 16px 25px 0;}
+	 .madhapur_res			{ width:48%;margin: 0 0px 25px 0;}
+	 .madhapur .basheerbad	{ padding-left:5px !important;}
+	 .lbnagar			{/*display:none;*/}
+	 .lbnagar_small		{display: block; width: 99.5%; margin-bottom: 20px;}
+	 
+	 /*Know Your Police station End*/
+	 
+	 /*		MadhapurPS_Details Start		*/
+	 .stationps_details				{padding: 20px 10px 10px;}
+	 .station_top_right 			{ margin: 0px 0 25px 0; float: right; display: inline-block;}
+	 .ps_detail_row ul li		{width:31.4%;}
+	 .sector_imp					{width:31.7%;margin: 0px 10px 0 0;}
+	 .sector_imp h3					{font-size: 15px;}
+	 .sector_imp ul					{height: 26vh;}
+	 .sector_imp ul li				{width: 95%;}
+	 /*		MadhapurPS_Details End		*/
+	 
+	 /*		MadhapurPS_Detective Inspectors Start		*/
+	 .station_head_di				{margin: -20px -10px 0;}
+	 /*		MadhapurPS_Detective Inspectors End		*/
+	 
+	 /*		Detective Inspetors Start		*/
+	 .madhapur_di				{width:31.9%;margin: 0 8px 25px 0; height:210px;}
+	 .madhapur_di:nth-child(6)	{ margin:0px 0 25px 0;}
+	 /*		Detective Inspetors End		*/
+	 
+	 /* station di start */
+	.person_di			{ width:auto;}
+	.emergency2_di			{width:100%;}
+	.emergency2_di_info h3	{padding: 21px 8px 35px 53px;}
+	 .emergency2_di .emergency_box	{padding: 15px 0 0 0;}
+	.emergency2_di .emergency_box img{margin: 15px 25px 23px 20px;}
+	.emergency2_di_info h4	{padding: 20px 0px 30px 32px;}
+	.emergency2_di	.sms	{padding: 17px 0 0 0;}
+	.emergency2_di .sms img	{margin: 16px 0 32px 13px;}
+	.emergency2_di	.child	{padding: 17px 0 0 0;}
+	.emergency2_di .child img	{margin: 19px 0 30px 26px;}
+	
+	/* station di end*/
+	
+	/*   Inner si's header bar Start		*/
+	.body_content			{ position:inherit; top:auto;}
+	 .station_top_back {    margin: -35px 0 0 0 !important; float:right;}
+	 .station_head_di				{margin: -20px -10px 0;}
+	 /*   Inner si's header bar end		*/
+	 
+	/*   Information- Safety tips Start		*/
+	.safety_tip_list		{width:65%;}
+	/*   Information- Safety tips end		*/
+	 
+	 /*   Information- fighting_terror Start		*/
+	.fighting_terror img					{width:100%;}
+	/*   Information- fighting_terror end		*/
+	
+	/*   women_corner start		*/
+	.women_corner img					{width:100%;}
+	/*   women_corner  end		*/
+	
+	/*   sots start		*/
+	.sot_back					{float:right !important;}
+	/*   sots  end		*/
+	
+	/* cyber-crime-cell start */
+	.cyber_cc .cyber_cc_top ul			{ width:90%;}
+	/* cyber-crime-cell end */
+	
+	/* cyber-branch start */
+	.crime_branch .acp li a				{ width:70%;}
+	.crime_branch .cyber li				{width: 47%;}
+	.crime_branch .cyber li a			{width: 91%;}
+	.crime_branch .women li a			{ width:88%;}
+	/* cyber-branch end */
+	
+		/* five_pronged start */
+	.five_pronged img						{ width:100%;}
+	.five_pronged .education				{width:100%; margin: 0 auto;}
+	.five_pronged .education img			{width:45%;margin: 0 2%;}
+	/* analysis_map end */
+
+	/*	Photos gallery page start	*/
+	.gallery ul			{ width:100%;}
+	.gallery ul li		{ width:31.3%;margin: 0 1% 25px;}
+	.gallery ul li a img	{ width:100%;}
+	.gallery ul li small	{ width:auto;min-height: 45px;}
+	/*	Photos gallery page end	*/
+	
+	/*	Photos gallery_in page start	*/
+	.gallery_in ul			{ width:100%;}
+	.gallery_in ul li		{ width:31.3%;margin: 0 1% 25px;}
+	.gallery_in ul li a img	{ width:100%;}
+	.gallery_in ul li small	{ width:auto;min-height: 45px;}
+	/*	Photos gallery_in page end	*/
+	
+	
+	/*	 video page start	*/
+	.video ul			{ width:100%;}
+	.video ul li		{ width:31.3%;margin: 0 1% 25px;}
+	.video ul li a img	{ width:100%;}
+	.video ul li small	{ width:auto;min-height: 45px;}
+	/*	video  page end	*/
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px){
+	
+	.head_left						{width: 85%;}
+	.logo 							{width: 15%;}
+	.head_title						{font-size:21px;margin: 15px 0 0 0px;}
+	.head_right						{width: 10.5%;}
+	.nav				{ display:none;}
+	.header				{ display:block;}
+	
+	.main_banner .bx-controls-direction a		{ top:90px;width: 20px;height: 20px;}
+	.banner_1 .banner_cont			{top:20px;}
+	.banner_1 .banner_cont h2		{ font-size:22px; line-height:23px;}
+	.banner_1 .banner_cont h2 span	{ font-size:25px;}
+	.main_banner					{border-bottom: 4px solid #8db22d;}
+	
+	.wish							{padding: 20px 0 0 0;}
+	.wish_photo						{margin:0px auto; width: 20%; display: block;float: none;}
+	.wish_content					{width: 96%; padding: 2% 2% 1.6% 2%; background-size:50% 100%;}
+	
+	.options ul li					{ width:19% !important;}
+	.options ul li img				{ width:100%;}
+	.options ul .brack				{ display:block; float:none !important;}
+	
+	.bottom							{ width:100%;}
+	.videos							{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 85%;}
+	.she_team						{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 85%;}
+	.shuttle						{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 85%;}
+	.emergency						{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;}
+	.press							{float: none;display: block;margin:20px auto;border-bottom: 0px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;}
+	
+	
+	/*	About page start	*/
+	.about_tables					{margin:0 0 20px 0;}
+	.about_area						{ float:none; width:100%; display:block;}
+	.about_public					{ width:100%; float:none; display:block; }
+	/*	About page end		*/
+	
+	/*Police station start*/
+	
+	.in_main_content				{padding: 20px 10px;}
+	.dropdown_menu		{ display:none;}
+	.ps_total			{ display:block;}
+	.ps_detail_res		{ height:143px;}
+	.person				{ width:100%; float:none;margin: 0 0 10px 0;}
+	.person img			{ width:28%;}
+	.emergency2			{width: 36%; float:none;}
+	.emergency2_info h3	{padding: 21px 8px 20px 35px;}
+	.emergency2 .emergency_box img{margin: 17px 25px 23px 20px;}
+	.emergency2_info h4	{padding: 20px 0px 20px 32px;}
+	.emergency2	.sms img	{margin: 16px 0 32px 13px;}
+	.emergency2	.child img	{margin: 19px 0 30px 26px;}
+	
+	.ps_detail			{width: 100%;margin: 0 0px 10px 0; float: none; display: inline-block;}
+	.table_word			{word-break: break-all;}
+	.station_row3		{margin:20px 0 0 0;}
+	.map				{width: 100%;}
+	.sector_info		{width: 100%;}
+	.strength			{width:100%;}
+	.map_cover			{ width:100% !important;}
+	/*Police station end*/
+	
+	/*	ACP's details page start	*/
+	.ps_total							{margin: 0px auto 10px;  float: none;}
+	 .acp_total							{ width:99%; margin:0 auto;}
+	 .acp_detail						{ width:100%;}
+	 .acp_detail2						{ width:100%;}
+	 /*	ACP's details page end	*/
+	
+	/*	cyber crime page start	*/
+	 .cyber_crime_detail						{ width:100%;}
+	 .cyber_crime_detail2						{ width:100%;}
+	 .cyber_crime_detail3						{ width:100%;}
+	 .cyber_crime_detail4						{ width:100%;}
+	 /*	cyber crime page end	*/
+	
+	/* cyber-branch start */
+	.crime_branch .acp li a				{ width:70%;}
+	.crime_branch .cyber li				{width: 47%;}
+	.crime_branch .cyber li a			{width: 91%;}
+	.crime_branch .women li a			{ width:88%;}
+	/* cyber-branch end */
+	
+	
+	/*Know Your Police station start*/
+	 .know_your_ps				{padding: 20px 10px 0;}
+	 .jcp				{ width:48%;margin: 0 11px 25px 0;background: #E8E8E8;}
+	 .jcp a			{padding: 89px 0;}
+	 .madhapur			{ width:48%;margin: 0 11px 25px 0;}
+	 .madhapur_res			{ width:48%;margin: 0 0px 25px 0;}
+	 .madhapur .basheerbad	{ padding-left:5px !important;}
+	 .lbnagar			{display:none;}
+	 .lbnagar_small		{display: block; width: 99.5%; margin-bottom: 20px;}
+	 
+	 /*Know Your Police station End*/
+	
+	/*		MadhapurPS_Details Start		*/
+	 .stationps_details				{padding: 20px 10px 10px;}
+	 .station_top_right 			{ margin: 0px 0 25px 0; float: none; display: inline-block;}
+	 .ps_detail_row ul li		{width:47.5%;}
+	 .sector_imp					{width:31.2%;margin: 0px 10px 0 0;}
+	 .sector_imp h3					{font-size: 15px;height: 35px;}
+	 .sector_imp ul					{height: 26vh;}
+	 .sector_imp ul li				{width: 95%;}
+	 /*		MadhapurPS_Details End		*/
+	 
+	 /*   sots start		*/
+	.sot_back					{float:right !important;}
+	/*   sots  end		*/
+	 
+	 /*		MadhapurPS_Detective Inspectors Start		*/
+	 .station_head_di				{margin: -20px -10px 0;}
+	 /*		MadhapurPS_Detective Inspectors End		*/
+	 
+	 /*		Detective Inspetors Start		*/
+	 .madhapur_di				{width:47.9%;margin: 0 8px 25px 0 !important; height:210px;}
+	 .madhapur_di:nth-child(5)	{ margin:0px 0 25px 0;}
+	 .madhapur_di:nth-child(7)	{ margin:0px 0 25px 0;}
+	 /*		Detective Inspetors End		*/
+	 
+	 /* station di start */
+	.person_di			{ width:auto;}
+	.emergency2_di			{width:100%;}
+	.emergency2_di_info h3	{padding:9px 8px 20px 40px;font-size: 13px;}
+	 .emergency2_di_info h3 span	{font-size: 14px;}
+	 .emergency2_di .emergency_box	{padding: 14px 0 0 0;}
+	.emergency2_di .emergency_box img{margin:10px 7px 33px 5px;}
+	.emergency2_di_info h4	{padding:9px 0px 28px 36px;font-size: 13px;}
+	.emergency2_di_info h4 span	{font-size: 14px;}
+	.emergency2_di	.sms	{padding: 10px 0 0 0;}
+	.emergency2_di .sms img	{margin:16px 0 23px 5px;}
+	.emergency2_di	.child	{padding: 10px 0 0 0;}
+	.emergency2_di .child img	{margin:19px 0 25px 14px;}
+	
+	/* station di end*/
+	
+	/*   Inner si's header bar Start		*/
+	.body_content			{ position:inherit; top:auto;}
+	 .station_top_back {    margin: -35px 0 0 0 !important; float:right;}
+	 .station_head_di				{margin: -20px -10px 0;}
+	 /*   Inner si's header bar end		*/
+	
+	/*   Information- Safety tips Start		*/
+	.safety_tip_list		{width:65%;}
+	/*   Information- Safety tips end		*/
+	
+	/*   Information- cybpol Start		*/
+	.analysis_map .analysis_cybarabad 	{width:415px;}
+	.analysis_map .analysis_cybarabad .police img{width: 90%;}
+	.analysis_map .analysis_cybarabad .traffic{ width:49.5%;}
+	.analysis_map .analysis_cybarabad .traffic img{    width: 90%;}
+
+	/*   Information- cybpol end		*/
+	
+	/*   Information- fighting_terror Start		*/
+	.fighting_terror img					{width:100%;}
+	/*   Information- fighting_terror end		*/
+	
+	/*   women_corner start		*/
+	.women_corner img					{width:100%;}
+	/*   women_corner  end		*/
+	
+	/* cyber-crime-cell start */
+	.cyber_cc .cyber_cc_top ul			{ width:90%;}
+	/* cyber-crime-cell end */
+	
+	/* most-wanted start */
+	.wanted								{ width:100% !important;}
+	/* most-wanted end */
+	
+	/* five_pronged start */
+	.five_pronged img						{ width:100%;}
+	.five_pronged .education				{width:100%; margin: 0 auto;}
+	.five_pronged .education img			{width:45%;margin: 0 2%;}
+	/* analysis_map end */
+	
+	/*	Photos gallery page start	*/
+	.gallery ul			{ width:100%;}
+	.gallery ul li		{ width:48%;margin: 0 1% 25px;}
+	.gallery ul li a img	{ width:100%;}
+	.gallery ul li small	{ width:auto;}
+	/*	Photos gallery page end	*/
+	
+	/*	Photos gallery_in page start	*/
+	.gallery_in ul			{ width:100%;}
+	.gallery_in ul li		{ width:48%;margin: 0 1% 25px;}
+	.gallery_in ul li a img	{ width:100%;}
+	.gallery_in ul li small	{ width:auto;}
+	/*	Photos gallery_in page end	*/
+	
+	/*	 video page start	*/
+	.video ul			{ width:100%;}
+	.video ul li		{ width:48%;margin: 0 1% 25px;}
+	.video ul li a img	{ width:100%;}
+	.video ul li small	{ width:auto;}
+	/*	video  page end	*/
+	
+	/*	 video page start	*
+	.video ul			{ width:100%;}
+	.video ul li		{ width:31.3%;margin: 0 1% 25px;}
+	.video ul li a img	{ width:100%;}
+	.video ul li small	{ width:auto;}
+	/*	video  page end	*/
+	
+}
+
+ @media only screen and (max-width: 479px){
+	 
+	 .head_left						{width: 100%;}
+	 .logo 							{width: 15%;}
+	 .head_title					{font-size:17px;margin: 10px 0 20px 0px;}
+	 .head_title small				{ font-size:12px;margin: -5px 0 0 4px;}
+	 .head_right					{width: 10.5%; display:none;}
+	 .nav				{ display:none;}
+	.header				{ display:block;}
+	
+	.main_banner .bx-controls-direction a		{ top:50px;width:13px;height: 20px;}
+	.banner_1 .banner_cont			{top:20px;}
+	.banner_1 .banner_cont h2		{ font-size:22px; line-height:23px; display:none;}
+	.banner_1 .banner_cont h2 span	{ font-size:25px;}
+	.main_banner					{border-bottom: 4px solid #8db22d;}
+	
+	 .wish							{padding: 20px 0 0 0;}
+	 .wish_photo					{margin:0px auto; width: 25%; display: block;float: none;}
+	 .wish_content					{width: 96%; padding: 2% 2% 1.6% 2%; background-size:50% 100%; background:none;}
+	 .wish_content h3				{ font-size:14px;margin: 5px 0 0 0; line-height:10px;}
+	 .wish_content h4				{ font-size:12px;}
+	 .wish_content p				{width: 100%; text-align: justify;}
+	 
+	 .options ul li					{ width:100% !important; float:none; display:block; text-align:left;}
+	 .options ul li a				{ display:inline-block;}
+	.options ul li a img			{float: left;width:40px;display: block;margin: 0 10px 0 0;}
+	.options ul li a span			{display: inline-block;float: left;margin: 10px 0 0 0; width:183px; text-align:left;}
+	.options ul .brack				{}
+	
+	.bottom							{ width:100%;}
+	.videos							{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 85%;}
+	.she_team						{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 85%;}
+	.shuttle						{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 85%;}
+	.emergency						{float: none;display: block;margin:20px auto;border-bottom: 1px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 85%;background-size: contain;}
+	.emergency ul					{margin: 0 0 20px 0;}
+	.emergency ul li				{ font-size:14px;}
+	.emergency ul li span			{ width:145px;}
+	.emergency h3					{ font-size:14px;}
+	.emergency p					{ font-size:14px;}
+	.press							{float: none;display: block;margin:20px auto;border-bottom: 0px solid #d1d1d1;padding: 0 20px 10px; border-right:0px;width: 85%;}
+	
+	
+	/*	About page start	*/
+	.about p						{ text-align:justify; width:92%;}
+	.about_tables					{margin:0 0 20px 0;}
+	.about_area						{ float:none; width:100%; display:block;}
+	.about_public					{ width:100%; float:none; display:block; }
+	/*	About page end		*/
+	
+	
+	
+	/*Police station start*/
+	.station_head h3				{margin:0px 0 10px 0; text-align:center;}
+	.station_head					{ float:none !important; margin-bottom:10px !important;}
+	.dropdown_menu					{ float:none !important; margin:0 auto 10px !important;width: 220px;height: 48px; display:block;}
+	.in_main_content				{padding: 20px 5px;}
+	.dropdown_menu		{ display:none;}
+	.ps_total			{ display:block;float: none;}
+	.ps_total #ps_down	{left: 5px !important;}
+	.ps_detail_res		{ height:143px;}
+	.person				{ width:100%; float:none;margin: 0 0 10px 0;padding: 10px 0;}
+	.person img			{width: 35%; margin: 0 auto; display: block; float: none;}
+	.person .detail		{margin: 8px 0 0 5px;width: 98%;}
+	.emergency2			{width: 36%; float:none;}
+	/*.emergency2_info h3	{padding: 21px 8px 20px 35px;}
+	.emergency2 .emergency_box img{margin: 17px 25px 23px 20px;}
+	.emergency2_info h4	{padding: 20px 0px 20px 32px;}
+	.emergency2	.sms img	{margin: 16px 0 32px 13px;}
+	.emergency2	.child img	{margin: 19px 0 30px 26px;}*/
+	.emergency2_info h3	{padding:21px 6px 20px 5px;}
+	.emergency2_info h3 span	{font-size: 13px;}
+	.emergency2 .emergency_box img{margin:27px 5px 16px 5px;}
+	.emergency2_info h4	{padding:16px 0px 20px 5px;}
+	.emergency2_info h4 span	{font-size: 13px;}
+	.emergency2	.sms img	{margin:24px 0 15px 10px;}
+	.emergency2	.child img	{margin: 19px 0 21px 6px;width: 30%;}
+	
+	.ps_detail			{width: 100%;margin: 0 0px 10px 0; float: none; display: inline-block;}
+	.table_word			{word-break: break-all;}
+	
+	.station_row3		{margin:20px 0 0 0;}
+	.map				{width: 100%;}
+	.sector_info		{width: 100%;height: 346px;}
+	.strength			{width:100%;}
+	.map_cover			{ width:100% !important;}
+	
+	/*Police station end*/
+	
+	/*	ACP's details page start	*/
+	.ps_total							{margin: 20px auto 30px;  float: none; height:30px;}
+	 .acp_total							{ width:99%; margin:0 auto;}
+	 .acp_detail						{ width:100%;height: 280px;}
+	 .acp_detail2						{ width:100%;height: 285px;}
+	 .acp_detail2	.name				{ word-break:break-all;}
+	 .acp_detail2	.name2				{ word-break:break-all;}
+	 /*	ACP's details page end	*/
+	 
+	 /*	cyber crime page start	*/
+	 .cyber_crime_detail						{ width:100%;}
+	 .cyber_crime_detail2						{ width:100%;}
+	 .cyber_crime_detail3						{ width:100%;}
+	 .cyber_crime_detail4						{ width:100%;}
+	 .cyber_crime_detail4 .headline				{ padding:0px;}
+	 /*	cyber crime page end	*/
+	
+	/*Know Your Police station start*/
+	 .know_your_ps				{padding: 20px 5px 0;}
+	 .jcp				{ width:99%;margin: 0 0px 25px 0;background: #E8E8E8; box-shadow:none; height:auto !important;}
+	 .jcp a				{padding: 89px 0; width:272px;}
+	 .madhapur			{ width:99%;margin: 0 0px 25px 0 !important; box-shadow:none;}
+	 .madhapur .basheerbad	{ padding-left:5px !important;}
+	 .lbnagar			{display:none;}
+	 .lbnagar_small		{display: block; width: 99.5%; margin-bottom: 20px;height: 299px; box-shadow:none;}
+	 .lbnagar_small .lbnagar_td		{padding: 6px 0 6px 4px !important;}
+	 .others_height				{ height:auto !important;}
+	 /*Know Your Police station End*/
+	
+	/*		MadhapurPS_Details Start		*/
+	 .stationps_details				{padding: 20px 10px 10px;}
+	 .station_top_right 			{ margin: 0px 0 25px 0; float: none; display: inline-block;}
+	 .station_top_right ul li		{ width:auto !important;}
+	 .station_top_right ul li a		{padding: 6px 5px 9px;}
+	 .station_top_right ul li a:hover		{padding: 6px 5px 9px; margin:0 0 0 5px;}
+	 .ps_detail_row ul li		{width:95.5%;}
+	 .sector_imp					{width: 99%; margin: 0 0 20px 0; display: block; float: none !important;}
+	 .sector_imp h3					{font-size: 15px;}
+	 .sector_imp ul					{height: auto;}
+	 .sector_imp ul li				{width: 95%;}
+	 /*		MadhapurPS_Details End		*/
+	
+	/*		MadhapurPS_Detective Inspectors Start		*/
+	 .station_head_di				{margin: -20px -5px 0;}
+	 /*		MadhapurPS_Detective Inspectors End		*/
+	 
+	 /*   sots start		*/
+	.sot_back					{float:right !important;}
+	/*   sots  end		*/
+	 
+	 /*		Detective Inspetors Start		*/
+	 .madhapur_di				{width: 99%; float: none; margin: 0 0 25px 0 !important; box-shadow: none; display:block;}
+	 /*		Detective Inspetors End		*/
+	 
+	 
+	 /* station di start */
+	.person_di			{ width:auto;}
+	.emergency2_di			{width:100%;}
+	.emergency2_di_info h3	{padding:9px 8px 20px 10px;font-size: 13px;}
+	 .emergency2_di_info h3 span	{font-size: 14px;}
+	 .emergency2_di .emergency_box	{padding: 14px 0 0 0;}
+	.emergency2_di .emergency_box img{margin:20px 7px 23px 5px;}
+	.emergency2_di_info h4	{padding:9px 0px 15px 12px;font-size: 13px;}
+	.emergency2_di_info h4 span	{font-size: 14px;}
+	.emergency2_di	.sms	{padding: 10px 0 0 0;}
+	.emergency2_di .sms img	{margin:16px 0 23px 5px;}
+	.emergency2_di	.child	{padding: 10px 0 0 0;}
+	.emergency2_di .child img	{margin:19px 0 25px 14px;}
+	
+	/* station di end*/
+	
+	/*   Inner si's header bar Start		*/
+	.body_content			{ position:inherit; top:auto;}
+	.station_top_back {    margin: -35px 0 0 0 !important; float:right;}
+	 .station_head_di				{margin: 20px -5px 0;}
+	 /*   Inner si's header bar end		*/
+	
+	/*   Information- Safety tips Start		*/
+	.safety_tip_list		{width: 95%;}
+	.safety_tip p			{text-align: justify; width: 90%;}
+	/*   Information- Safety tips end		*/
+	
+	/*   Information- cybpol Start		*/
+	.analysis_map .analysis_cybarabad 	{width:100%;}
+	.analysis_map .analysis_cybarabad .police {width:100%;border-bottom: 1px solid #ccc;}
+	.analysis_map .analysis_cybarabad .police img{width: 70%;}
+	.analysis_map .analysis_cybarabad .traffic{ width:100%;}
+	.analysis_map .analysis_cybarabad .traffic img{    width: 70%;}
+
+	/*   Information- cybpol end		*/
+	
+	/*   Information- fighting_terror Start		*/
+	.fighting_terror img					{width:100%;}
+	/*   Information- fighting_terror end		*/
+	
+	/*   Information- fighting_terror Start		*/
+	.collapsible, .page_collapsible							{ height:auto !important;padding: 10px 10px 10px 10px !important;}
+	.collapsible, .page_collapsible_small					{ height:auto !important;padding: 10px 10px 10px 10px !important;}
+	/*   Information- fighting_terror end		*/
+	
+	/*   women_corner start		*/
+	.women_corner img					{width:100%;}
+	/*   women_corner  end		*/
+	
+	/* cyber-crime-cell start */
+	.cyber_cc .cyber_cc_top ul			{ width:90%;}
+	/* cyber-crime-cell end */
+	
+	/* cyber-branch start */
+	.crime_branch .acp li a				{ width:70%;}
+	.crime_branch .cyber li				{width: 48%;}
+	.crime_branch .cyber li a			{width: 90%;}
+	.crime_branch .women li a			{ width:88%;}
+	.crime_branch .dcp li a				{ width:85%;}
+	/* cyber-branch end */
+	
+	/* most-wanted start */
+	.wanted								{ width:100% !important;}
+	/* most-wanted end */
+	
+	.women_corner .women_shelter table tr td p	{ width:60px !important;}
+	
+	/* five_pronged start */
+	.five_pronged img						{ width:100%;}
+	.five_pronged .education				{width:100%; margin: 0 auto;}
+	.five_pronged .education img			{width:90%; display:block; margin-bottom:20px;}
+	/* analysis_map end */
+	
+	/*	Photos gallery page start	*/
+	.gallery ul			{ width:100%;}
+	.gallery ul li		{ width:48%;margin: 0 1% 25px;}
+	.gallery ul li a img	{ width:100%;}
+	.gallery ul li small	{ width:auto; min-height:60px;}
+	/*	Photos gallery page end	*/
+	
+	/*	Photos gallery_in page start	*/
+	.gallery_in ul			{ width:100%;}
+	.gallery_in ul li		{ width:48%;margin: 0 1% 25px;}
+	.gallery_in ul li a img	{ width:100%;}
+	.gallery_in ul li small	{ width:auto; min-height:60px;}
+	/*	Photos gallery_in page end	*/
+	
+		/*	 video page start	*/
+	.video ul			{ width:100%;}
+	.video ul li		{ width:100%;margin: 0 0% 25px;}
+	.video ul li a		{ display:block;}
+	.video ul li a img	{ width:100%;}
+	.video ul li small	{ width:auto; min-height:35px;}
+	/*	video  page end	*/
+
+	
+	/*	 video page start	*
+	.video ul			{ width:100%;}
+	.video ul li		{ width:48%;margin: 0 1% 25px;}
+	.video ul li a img	{ width:100%;}
+	.video ul li small	{ width:auto; min-height:60px;}
+	/*	video  page end	*/
+	
+}
+
+
+
+
+ @media only screen and (max-width: 320px){
+	 
+	 .videos img { width: 100%;}
+	 .videos .icon_video	{width: 15%;}
+	 .she_team img		{width: 100%;}
+	 .shuttle img		{width: 100%;}
+	 .emergency			{background-size: 85%;}
+	 
+	 .cyber_crime_detail2						{ width:100%;height: 294px;}
+	 
+	 /*	Photos gallery page start	*/
+	.gallery ul			{ width:100%;}
+	.gallery ul li		{ width:100%;margin: 0 0% 25px;}
+	.gallery ul li a		{ display:block;}
+	.gallery ul li a img	{ width:100%;}
+	.gallery ul li small	{ width:auto; min-height:35px;}
+	/*	Photos gallery page end	*/
+	
+	/*	Photos gallery_in page start	*/
+	.gallery_in ul			{ width:100%;}
+	.gallery_in ul li		{ width:100%;margin: 0 0% 25px;}
+	.gallery_in ul li a		{ display:block;}
+	.gallery_in ul li a img	{ width:100%;}
+	.gallery_in ul li small	{ width:auto; min-height:35px;}
+	/*	Photos gallery_in page end	*/
+	
+	/*	 video page start	*/
+	.video ul			{ width:100%;}
+	.video ul li		{ width:100%;margin: 0 0% 25px;}
+	.video ul li a		{ display:block;}
+	.video ul li a img	{ width:100%;}
+	.video ul li small	{ width:auto; min-height:35px;}
+	/*	video  page end	*/
+	
+	/* cyber-branch start */
+	.crime_branch .acp					{ width:100%;}
+	.crime_branch .acp li a				{ width:70%;}
+	.crime_branch .cyber li				{width: 100%;}
+	.crime_branch .cyber li a			{width: 90%;}
+	.crime_branch .women				{width: 99.5%;}
+	.crime_branch .women li				{width: 99.7%;}
+	.crime_branch .women li a			{ width:88%;}
+	.crime_branch .dcp li a				{ width:85%;}
+	/* cyber-branch end */
+	
+	 }
+	 
+@media only screen and (max-width:767px) {
+.jcp				{ width:100%;margin-bottom: 20px;}
+	 .madhapur			{ width:100%;margin-bottom: 20px !important;}
+	 .madhapur_res			{ width:100%;margin-bottom: 20px;}
+	 .madhapur .basheerbad	{}
+	 .lbnagar			{display:block !important; width:100%;margin-bottom: 20px;}
+	 .lbnagar_small		{display: block; width: 99.5%; margin-bottom: 20px;}
+}
+	 
+	 
